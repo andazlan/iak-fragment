@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyFragment.iml" filepath="$PROJECT_DIR$/MyFragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iak-fragment.iml" filepath="$PROJECT_DIR$/iak-fragment.iml" />
     </modules>
   </component>
 </project>

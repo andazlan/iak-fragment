@@ -16,7 +16,7 @@ import java.util.ArrayList;
 
 public class ListFragment extends Fragment {
     private ListView listWord;
-
+    public static Word mWord = null;
     public static ListFragment newInstance() {
         ListFragment fragment = new ListFragment();
         return fragment;
@@ -47,6 +47,8 @@ public class ListFragment extends Fragment {
 
         WordAdapter wordAdapter = new WordAdapter(getContext(), arrayWord);
         listWord.setAdapter(wordAdapter);
+
+        mWord = wordAdapter.getItem(1);
 
         return  view;
     }
